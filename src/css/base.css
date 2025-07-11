@@ -1,0 +1,101 @@
+:root {
+  --first-font-family: 'Poppins', sans-serif;
+  --second-font-family: 'Impact', sans-serif;
+  --transition: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --black: #292929;
+  --accent-green: #2978b5;
+  --white: #f0f0f0;
+  --light-grey: #e4e5e6;
+  --hover-grey: #bbb;
+  --light-accent: #623fff;
+  --hover-green: #623fff;
+
+  --black-dt: #1e2023;
+  --accent-green-dt: #2978b5;
+  --charcoal-dt: #2a2d32;
+  --hover-grey-dt: #3b3f45;
+  --dark-accent-dt: #2978b5;
+  --hover-green-dt: #623fff;
+  --light-accent-dt: #623fff;
+  --error: #e74a3b;
+
+  --text-color: var(--black);
+  --accent-color: var(--accent-green);
+  --main-background: var(--white);
+  --second-background: var(--light-accent);
+  --third-background: var(--light-grey);
+  --btn-hero-background: var(--light-accent);
+  --btn-hero-hover: var(--accent-green);
+  --second-hover: var(--hover-green);
+  --third-hover: var(--hover-grey);
+  --fill-icon: var(--accent-green);
+  --icon-background: var(--light-accent);
+  --border-footer: var(--light-grey);
+  --accordeon-background: var(--light-accent);
+  --tech-skills-background: var(--accent-green);
+  --tech-skills-color: var(--accent-green);
+  --point-tech-skill: var(--light-accent);
+  --faq-line: var(--light-grey);
+  --switch-background: var(--light-grey);
+  --switch-color: var(--light-accent);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+a,
+button,
+input,
+textarea {
+  font-family: var(--first-font-family);
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--main-background);
+  transition: background-color 1s var(--transition);
+}
+
+h1,
+h2 {
+  font-family: var(--second-font-family);
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.hero-text,
+.hero-title,
+.header-logo,
+.hero-btn {
+  transition: color 1s var(--transition);
+}
+
+.hero-page,
+.header-page,
+.hero-btn-span,
+.hero-social-list {
+  transition: background-color 1s var(--transition);
+}
+
+.icon-baget {
+  transition: fill 1s var(--transition);
+}

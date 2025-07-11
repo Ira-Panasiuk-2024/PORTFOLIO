@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Iryna Panasiuk | Fullstack Developer Portfolio",
+    "description": "Portfolio of Iryna Panasiuk, a Fullstack Developer specializing in modern web technologies. Explore projects in HTML, CSS, JavaScript, React, Node.js, and more."
+  },
+  "header": {
+    "logo": "Iryna",
+    "logo_span": "Panasiuk.",
+    "about_me": "About me",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title": "Hello, I am <span>Fullstack developer</span>",
+    "button": "Order the project",
+    "text": "I am looking for opportunities for <span>professional growth</span> and am ready to <span>join interesting projects</span> where I can apply my skills.",
+    "social_telegram": "Telegram",
+    "social_resume": "Resume",
+    "social_resume_link": "https://drive.google.com/file/d/1z2Xd0i1j001gpdt9GemAYNxhTyD8AIbr/view",
+    "social_github": "GitHub"
+  },
+  "about_me": {
+    "title_part1": "About ",
+    "title_part2": "me",
+    "story_subtitle": "My story",
+    "story_text": "I'm Ira, and my journey into the world of web development began with a simple curiosity: how are the websites we use every day created? This curiosity grew into a real passion. After completing intensive courses in full-stack development, I realized that this is exactly what I want to do. I am fascinated by the whole process: from the first idea to the finished product that users can see and feel.",
+    "inspiration_subtitle": "What inspires me?",
+    "inspiration_text": "The opportunity to combine creativity with technology. Every project is a new challenge, a new opportunity to learn something interesting and create something useful. As a full-stack developer, I understand the importance of every detail - from page loading speed to intuitive interface. I strive to create not just websites, but digital experiences that are memorable.",
+    "open_to_projects": "Always open to new projects and opportunities for professional growth!"
+  },
+  "my_projects": {
+    "title_part1": "MY ",
+    "title_part2": "PROJECTS",
+    "visit_button": "VISIT",
+    "load_more_button": "LOAD MORE"
+  },
+  "work_together": {
+    "title_part1": "let’s",
+    "title_part2": "work together",
+    "article": "Contact me to transform your ideas into exceptional solutions.",
+    "email": "panasykira2022@gmail.com",
+    "location": "Ukraine, Rivne",
+    "form_name_placeholder": "Your name*",
+    "form_name_error": "Name is required (minimum 2 characters)",
+    "form_email_placeholder": "Your email*",
+    "form_email_error": "Invalid email, try again",
+    "form_phone_placeholder": "Phone (optional)",
+    "form_phone_error": "Invalid phone format",
+    "form_message_placeholder": "Message*",
+    "form_button": "SEND MESSAGE",
+    "modal_title": "Thank you for your interest in cooperation!",
+    "modal_text": "The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch."
+  },
+  "footer": {
+    "logo": "Iryna",
+    "logo_span": "Panasiuk.",
+    "telegram": "Telegram",
+    "resume": "Resume",
+    "resume_link": "https://drive.google.com/file/d/1z2Xd0i1j001gpdt9GemAYNxhTyD8AIbr/view",
+    "github": "GitHub",
+    "copyright": "© Copyright 2025. Made by IrynaPanasiuk"
+  }
+}

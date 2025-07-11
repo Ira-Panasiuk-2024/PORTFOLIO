@@ -1,0 +1,20 @@
+.dark {
+  --text-color: var(--white);
+  --accent-color: var(--accent-green-dt);
+  --main-background: var(--black-dt);
+  --second-background: var(--light-accent-dt);
+  --third-background: var(--charcoal-dt);
+  --btn-hero-background: var(--hover-green);
+  --btn-hero-hover: var(--accent-green-dt);
+  --second-hover: var(--light-accent-dt);
+  --third-hover: var(--hover-grey-dt);
+  --fill-icon: var(--accent-green-dt);
+  --icon-background: var(--dark-accent-dt);
+  --border-footer: var(--white);
+  --switch-background: var(--black);
+  --switch-color: var(--light-accent);
+  --accordeon-background: var(--dark-accent-dt);
+  --tech-skills-background: var(--dark-accent-dt);
+  --tech-skills-color: var(--accent-green-dt);
+  --point-tech-skill: var(--light-accent-dt);
+}

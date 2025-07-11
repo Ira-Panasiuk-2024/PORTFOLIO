@@ -1,0 +1,8 @@
+import './js/mobile-menu.js';
+import './js/switch-theme.js';
+import './js/my-projects.js';
+import './js/form.js';
+import './js/modal.js';
+import './js/localStorage-api.js';
+import './js/scroll-up.js';
+import './js/language-switcher.js';
