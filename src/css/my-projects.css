@@ -25,7 +25,7 @@
 
 .small-desc {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: left;
@@ -34,37 +34,49 @@
 
 .project-subtitle {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.25;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-align: left;
+  margin-bottom: 20px;
 }
 
-.projects-button {
-  border-radius: 8px;
-  width: 156px;
-  height: 48px;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-  background-color: var(--third-background);
-  transition: background-color 1s var(--transition);
-}
-
-.projects-button:hover,
-.projects-button:focus {
-  background-color: var(--third-hover);
+.description {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-bottom: 16px;
 }
 
 .box-button {
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 16px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+
+.projects-button {
+  border-radius: 8px;
+  padding: 12px;
+  width: 130px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 14px;
+  background-color: var(--third-background);
+  transition: background-color 1s var(--transition);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.projects-button:focus {
+  background-color: var(--third-hover);
 }
 
 .project-list {
@@ -133,22 +145,19 @@
 
   .project-subtitle {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.33;
     letter-spacing: 0.01em;
   }
 
-  .box-button {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0;
-  }
-
   .small-desc {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 22px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+    font-size: 22px;
   }
 
   .load-container {
@@ -192,5 +201,9 @@
 
   .line::after {
     width: 222px;
+  }
+
+  .projects-button:hover {
+    background-color: var(--third-hover);
   }
 }

@@ -12,7 +12,7 @@ I specialize in full-stack development, understanding that every detail matters 
 - **Frontend**: HTML5, CSS3, JavaScript, React, Redux, TypeScript
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Mongoose), Firebase (Firestore/Realtime Database)
-- **Tools**: Git, GitHub, Vite, Postman, Swagger
+- **Tools**: Git, GitHub, Vite, Postman, VSCode, Swagger
 
 ## 🎯 My Approach
 Every project is a new challenge and an opportunity to learn something interesting while creating something useful. I'm always open to new projects and opportunities for professional growth, ready to join interesting projects where I can apply and expand my skills.
@@ -37,7 +37,7 @@ I'm always excited to discuss new opportunities and transform ideas into excepti
 - **Frontend**: HTML5, CSS3, JavaScript, React, Redux, TypeScript
 - **Backend**: Node.js, Express.js
 - **База даних**: MongoDB (Mongoose), Firebase (Firestore/Realtime Database)
-- **Інструменти**: Git, GitHub, Vite, Postman, Swagger
+- **Інструменти**: Git, GitHub, Vite, Postman, VSCode, Swagger
 
 ## 🎯 Мій підхід
 Кожен проект - це нова задача, нова можливість навчитися чомусь цікавому і створити щось корисне. Як full-stack розробник, я розумію важливість кожної деталі та прагну створювати цифрові рішення, які не просто працюють, а захоплюють.

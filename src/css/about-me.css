@@ -27,6 +27,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 20px;
   margin-top: 20px;
+  color: var(--light-accent);
 }
 
 .about-text {
