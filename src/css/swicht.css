@@ -34,7 +34,18 @@
   transition: 0.4s;
   box-shadow: 0 0px 15px var(--switch-background);
   background-color: var(--switch-color);
-  mask: url('/img/circle.svg') no-repeat center;
+
+  -webkit-mask-image: url('/img/circle.svg');
+
+  mask-image: url('/img/circle.svg');
+  -webkit-mask-repeat: no-repeat;
+
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  mask-position: center;
+  -webkit-mask-size: contain;
+
   mask-size: contain;
 }
 
@@ -49,7 +60,18 @@ input:focus + .slider {
 input:checked + .slider:before {
   transform: translateX(31px);
   background-color: var(--switch-color);
-  mask: url('/img/moon.svg') no-repeat center;
+
+  -webkit-mask-image: url('/img/moon.svg');
+
+  mask-image: url('/img/moon.svg');
+  -webkit-mask-repeat: no-repeat;
+
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  mask-position: center;
+  -webkit-mask-size: contain;
+
   mask-size: contain;
 }
 
