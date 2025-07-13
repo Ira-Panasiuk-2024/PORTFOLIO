@@ -6,3 +6,4 @@ import './js/modal.js';
 import './js/localStorage-api.js';
 import './js/scroll-up.js';
 import './js/language-switcher.js';
+import './js/tech-skills.js';
