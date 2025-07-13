@@ -18,7 +18,7 @@
     />
     <script type="module" crossorigin src="/PORTFOLIO/index.js"></script>
     <link rel="modulepreload" crossorigin href="/PORTFOLIO/assets/vendor-DfBlkqaH.js">
-    <link rel="stylesheet" crossorigin href="/PORTFOLIO/assets/index-D3rDQvZY.css">
+    <link rel="stylesheet" crossorigin href="/PORTFOLIO/assets/index-DU6g7MDm.css">
   </head>
   <body>
     <header class="header-page">
@@ -256,74 +256,17 @@
 
       <section class="tech-skills-section section">
   <h2 class="visually-hidden">Technologiess</h2>
-
   <div class="even-container">
     <div class="even-line">
-      <ul class="even-list">
-        <li>JAVASCRIPT</li>
-        <li>REACT</li>
-        <li>REDUX</li>
-        <li>NODE.JS</li>
-        <li>MongoDB</li>
-        <li>TYPESCRIPT</li>
-        <li>HTML/CSS</li>
-        <li>JAVASCRIPT</li>
-        <li>REACT</li>
-        <li>REDUX</li>
-        <li>NODE.JS</li>
-        <li>TYPESCRIPT</li>
-        <li>HTML/CSS</li>
-      </ul>
-      <ul class="even-list">
-        <li>JAVASCRIPT</li>
-        <li>REACT</li>
-        <li>REDUX</li>
-        <li>NODE.JS</li>
-        <li>MongoDB</li>
-        <li>TYPESCRIPT</li>
-        <li>HTML/CSS</li>
-        <li>JAVASCRIPT</li>
-        <li>REACT</li>
-        <li>REDUX</li>
-        <li>NODE.JS</li>
-        <li>TYPESCRIPT</li>
-        <li>HTML/CSS</li>
-      </ul>
+      <ul class="even-list" id="evenSkillsList"></ul>
+      <ul class="even-list" id="evenSkillsListDuplicate"></ul>
     </div>
   </div>
 
   <div class="moving-container uneven-container">
     <div class="uneven">
-      <ul class="uneven-list">
-        <li class="uneven-item">JAVASCRIPT</li>
-        <li class="uneven-item">REACT</li>
-        <li class="uneven-item">REDUX</li>
-        <li class="uneven-item">NODE.JS</li>
-        <li class="uneven-item">TYPESCRIPT</li>
-        <li class="uneven-item">HTML/CSS</li>
-        <li class="uneven-item">JAVASCRIPT</li>
-        <li class="uneven-item">REACT</li>
-        <li class="uneven-item">REDUX</li>
-        <li class="uneven-item">NODE.JS</li>
-        <li class="uneven-item">MongoDB</li>
-        <li class="uneven-item">TYPESCRIPT</li>
-        <li class="uneven-item">HTML/CSS</li>
-      </ul>
-      <ul class="uneven-list">
-        <li class="uneven-item">JAVASCRIPT</li>
-        <li class="uneven-item">REACT</li>
-        <li class="uneven-item">REDUX</li>
-        <li class="uneven-item">NODE.JS</li>
-        <li class="uneven-item">MongoDB</li>
-        <li class="uneven-item">TYPESCRIPT</li>
-        <li class="uneven-item">HTML/CSS</li>
-        <li class="uneven-item">JAVASCRIPT</li>
-        <li class="uneven-item">REACT</li>
-        <li class="uneven-item">REDUX</li>
-        <li class="uneven-item">NODE.JS</li>
-        <li class="uneven-item">TYPESCRIPT</li>
-        <li class="uneven-item">HTML/CSS</li>
-      </ul>
+      <ul class="uneven-list" id="unevenSkillsList"></ul>
+      <ul class="uneven-list" id="unevenSkillsListDuplicate"></ul>
     </div>
   </div>
 </section>
@@ -341,19 +284,19 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_1_des-DiuTHa3D.webp 1x, /PORTFOLIO/assets/project_1_des@2x-r1K8tEzU.webp 2x"
+            srcset="/PORTFOLIO/assets/project_14_des-DiuTHa3D.webp 1x, /PORTFOLIO/assets/project_14_des@2x-r1K8tEzU.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_1_tab-CfC65eR0.webp 1x, /PORTFOLIO/assets/project_1_tab@2x-paVKq3C3.webp 2x"
+            srcset="/PORTFOLIO/assets/project_14_tab-CfC65eR0.webp 1x, /PORTFOLIO/assets/project_14_tab@2x-paVKq3C3.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_1_mob-By8o4hhx.webp 1x, /PORTFOLIO/assets/project_1_mob@2x-CQOWe1ob.webp 2x"
+            srcset="/PORTFOLIO/assets/project_14_mob-By8o4hhx.webp 1x, /PORTFOLIO/assets/project_14_mob@2x-CQOWe1ob.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_1_mobb-DdsQt2G6.png"
+            src="/PORTFOLIO/assets/project_14_mobb-DdsQt2G6.png"
             alt="Money Guard"
             width="300"
             class="project-img"
@@ -363,14 +306,33 @@
           HTML5, CSS3, JAVASCRIPT, REACT, REDAX, NODE.JS, EXPRESS.JS, MONGODB,
           GIT, VITE
         </p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.money_guard">
+          Money Guard
+        </h3>
+        <p class="description" data-lang-key="my_projects.money_guard_desc">
+          This is a comprehensive personal finance management application that
+          empowers users with powerful tools for tracking income, monitoring
+          expenses, and effective budget planning. The app combines an elegant,
+          intuitive interface with advanced financial analytics and real-time
+          transaction monitoring capabilities.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Money Guard</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/Money-Guard-frontend"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://money-guard-frontend-five.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -381,19 +343,19 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_2_des-0Ns8vh6W.webp 1x, /PORTFOLIO/assets/project_2_des@2x-CUMD7lv5.webp 2x"
+            srcset="/PORTFOLIO/assets/project_13_des-0Ns8vh6W.webp 1x, /PORTFOLIO/assets/project_13_des@2x-CUMD7lv5.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_2_tab-YiOV0dBa.webp 1x, /PORTFOLIO/assets/project_2_tab@2x-Ddwula0m.webp 2x"
+            srcset="/PORTFOLIO/assets/project_13_tab-YiOV0dBa.webp 1x, /PORTFOLIO/assets/project_13_tab@2x-Ddwula0m.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_2_mob-c_02Gk8B.webp 1x, /PORTFOLIO/assets/project_2_mob@2x-CxZrM98o.webp 2x"
+            srcset="/PORTFOLIO/assets/project_13_mob-c_02Gk8B.webp 1x, /PORTFOLIO/assets/project_13_mob@2x-CxZrM98o.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_2_mobb-CrVn7t5g.png"
+            src="/PORTFOLIO/assets/project_13_mobb-CrVn7t5g.png"
             alt="Phonebook App"
             width="300"
             class="project-img"
@@ -403,14 +365,33 @@
           HTML5, CSS3, JAVASCRIPT, REACT, REDAX, NODE.JS, EXPRESS.JS, MONGODB,
           GIT, VITE
         </p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.phonebook_app">
+          Phonebook App
+        </h3>
+        <p class="description" data-lang-key="my_projects.phonebook_app_desc">
+          This is a full-stack phonebook application that provides users with
+          comprehensive contact management capabilities for maximum efficiency.
+          The app features an elegant, intuitive interface for seamless contact
+          operations: adding, editing, deleting, and quick searching with
+          advanced filtering capabilities.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Phonebook App</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/phonebook"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://phonebook-five-gules.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -421,33 +402,53 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_3_des-DlazxTQD.webp 1x, /PORTFOLIO/assets/project_3_des@2x-rePRSuAB.webp 2x"
+            srcset="/PORTFOLIO/assets/project_12_des-DlazxTQD.webp 1x, /PORTFOLIO/assets/project_12_des@2x-rePRSuAB.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_3_tab-DIguD2lB.webp 1x, /PORTFOLIO/assets/project_3_tab@2x-BsteSLwp.webp 2x"
+            srcset="/PORTFOLIO/assets/project_12_tab-DIguD2lB.webp 1x, /PORTFOLIO/assets/project_12_tab@2x-BsteSLwp.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_3_mob-VE8igJLg.webp 1x, /PORTFOLIO/assets/project_3_mob@2x-Dbd5SR95.webp 2x"
+            srcset="/PORTFOLIO/assets/project_12_mob-VE8igJLg.webp 1x, /PORTFOLIO/assets/project_12_mob@2x-Dbd5SR95.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_3_mobb-Dgmg05Sp.png"
+            src="/PORTFOLIO/assets/project_12_mobb-Dgmg05Sp.png"
             alt="Learn Lingo"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">REACT, FIREBASE, GIT, VITE</p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.learn_lingo">
+          Learn Lingo
+        </h3>
+        <p class="description" data-lang-key="my_projects.learn_lingo_desc">
+          This is an innovative web platform for a company specializing in
+          online language learning with qualified instructors. The application
+          creates seamless connections between students and experienced language
+          experts, delivering personalized learning experiences across a wide
+          range of languages and proficiency levels. The platform combines
+          cutting-edge technology with individualized educational approaches.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Learn Lingo</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/Learn_Lingo"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://learn-lingo-eight-phi.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -458,19 +459,19 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_4_des-CvKIw4Gc.webp 1x, /PORTFOLIO/assets/project_4_des@2x-BZwdjdLP.webp 2x"
+            srcset="/PORTFOLIO/assets/project_11_des-CvKIw4Gc.webp 1x, /PORTFOLIO/assets/project_11_des@2x-BZwdjdLP.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_4_tab-DM9TrUQB.webp 1x, /PORTFOLIO/assets/project_4_tab@2x-B9fDJOFV.webp 2x"
+            srcset="/PORTFOLIO/assets/project_11_tab-DM9TrUQB.webp 1x, /PORTFOLIO/assets/project_11_tab@2x-B9fDJOFV.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_4_mob-QC7m7Zi-.webp 1x, /PORTFOLIO/assets/project_4_mob@2x-C64snpqN.webp 2x"
+            srcset="/PORTFOLIO/assets/project_11_mob-QC7m7Zi-.webp 1x, /PORTFOLIO/assets/project_11_mob@2x-C64snpqN.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_4_mobb-ChklrQmS.png"
+            src="/PORTFOLIO/assets/project_11_mobb-ChklrQmS.png"
             alt="Project-CodeSamurai-Money Guard"
             width="300"
             class="project-img"
@@ -480,14 +481,39 @@
           HTML5, CSS3, JAVASCRIPT, REACT, REDAX, NODE.JS, EXPRESS.JS, MONGODB,
           GIT, VITE
         </p>
+        <h3
+          class="project-subtitle"
+          data-lang-key="my_projects.project_code_samurai"
+        >
+          Project-CodeSamurai-Money Guard
+        </h3>
+        <p
+          class="description"
+          data-lang-key="my_projects.project_code_samurai_desc"
+        >
+          This is an innovative personal finance management web application,
+          expertly crafted by the CodeSamurai team. The platform combines
+          elegant, intuitive design with powerful financial planning tools and
+          comprehensive transaction monitoring, providing users with complete
+          control over their finances.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Project-CodeSamurai-Money Guard</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/project-CodeSamurai-backend"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://project-code-samurai-frontend.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -498,33 +524,52 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_5_des-D-QVV3Ko.webp 1x, /PORTFOLIO/assets/project_5_des@2x-KjfBl0TK.webp 2x"
+            srcset="/PORTFOLIO/assets/project_10_des-D-QVV3Ko.webp 1x, /PORTFOLIO/assets/project_10_des@2x-KjfBl0TK.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_5_tab-3uvCsLy_.webp 1x, /PORTFOLIO/assets/project_5_tab@2x-Cs50v2gV.webp 2x"
+            srcset="/PORTFOLIO/assets/project_10_tab-3uvCsLy_.webp 1x, /PORTFOLIO/assets/project_10_tab@2x-Cs50v2gV.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_5_mob-B8VKJqXw.webp 1x, /PORTFOLIO/assets/project_5_mob@2x-B4mqioWX.webp 2x"
+            srcset="/PORTFOLIO/assets/project_10_mob-B8VKJqXw.webp 1x, /PORTFOLIO/assets/project_10_mob@2x-B4mqioWX.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_5_mobb-i_yeP31j.png"
+            src="/PORTFOLIO/assets/project_10_mobb-i_yeP31j.png"
             alt="Node.js MongoDB Homework Project"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">NODE.JS, EXPRESS.JS, MONGODB, GIT</p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.nodejs_mongodb">
+          Homework project phone book
+        </h3>
+        <p class="description" data-lang-key="my_projects.nodejs_mongodb_desc">
+          This project is a Node.js application powered by MongoDB, developed as
+          part of educational assignments for comprehensive backend development
+          learning. The application demonstrates fundamental principles of
+          building RESTful APIs using modern Node.js technologies, providing
+          hands-on experience in server-side development.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Node.js MongoDB Homework Project</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/nodejs-hw-mongodb"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://contacts-app-5c5h.onrender.com/api-docs/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -535,19 +580,19 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_6_des-81ZP0bd2.webp 1x, /PORTFOLIO/assets/project_6_des@2x-BimkLjSh.webp 2x"
+            srcset="/PORTFOLIO/assets/project_9_des-81ZP0bd2.webp 1x, /PORTFOLIO/assets/project_9_des@2x-BimkLjSh.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_6_tab-DdE0yCzh.webp 1x, /PORTFOLIO/assets/project_6_tab@2x-d9jaRUoX.webp 2x"
+            srcset="/PORTFOLIO/assets/project_9_tab-DdE0yCzh.webp 1x, /PORTFOLIO/assets/project_9_tab@2x-d9jaRUoX.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_6_mob-CWbBEkX_.webp 1x, /PORTFOLIO/assets/project_6_mob@2x-CopzpAZo.webp 2x"
+            srcset="/PORTFOLIO/assets/project_9_mob-CWbBEkX_.webp 1x, /PORTFOLIO/assets/project_9_mob@2x-CopzpAZo.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_6_mobb-7nXqKfVp.png"
+            src="/PORTFOLIO/assets/project_9_mobb-7nXqKfVp.png"
             alt="React + TypeScript Image Search Application"
             width="300"
             class="project-img"
@@ -556,16 +601,40 @@
         <p class="small-desc">
           HTML5, CSS3, JAVASCRIPT, REACT, TYPESCRIPT, Git, VITE
         </p>
+        <h3
+          class="project-subtitle"
+          data-lang-key="my_projects.react_typescript_search"
+        >
+          React + TypeScript Image Search Application
+        </h3>
+        <p
+          class="description"
+          data-lang-key="my_projects.react_typescript_search_desc"
+        >
+          This is a modern web application built with React and TypeScript,
+          showcasing cutting-edge type-safe development practices. The project
+          demonstrates seamless TypeScript integration with React to create
+          robust, scalable applications with enhanced code maintainability.
+          Through strict typing, it delivers an exceptional developer experience
+          and outstanding runtime reliability.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">
-            React + TypeScript Image Search Application
-          </h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/goit-typescript-hw-02"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://goit-typescript-hw-02-gamma-snowy.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -576,33 +645,53 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_7_des-CjBddRpH.webp 1x, /PORTFOLIO/assets/project_7_des@2x-tzjDlUkb.webp 2x"
+            srcset="/PORTFOLIO/assets/project_8_des-CjBddRpH.webp 1x, /PORTFOLIO/assets/project_8_des@2x-tzjDlUkb.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_7_tab-NUvQx_0b.webp 1x, /PORTFOLIO/assets/project_7_tab@2x-54Idgxtd.webp 2x"
+            srcset="/PORTFOLIO/assets/project_8_tab-NUvQx_0b.webp 1x, /PORTFOLIO/assets/project_8_tab@2x-54Idgxtd.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_7_mob-rEuUJK0V.webp 1x, /PORTFOLIO/assets/project_7_mob@2x-uX7m3av_.webp 2x"
+            srcset="/PORTFOLIO/assets/project_8_mob-rEuUJK0V.webp 1x, /PORTFOLIO/assets/project_8_mob@2x-uX7m3av_.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_7_mobb-ByBYVo9p.png"
+            src="/PORTFOLIO/assets/project_8_mobb-ByBYVo9p.png"
             alt="PhoneBook with Authentication"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, JAVASCRIPT, REACT, Git, VITE</p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.phonebook_auth">
+          PhoneBook with Authentication
+        </h3>
+        <p class="description" data-lang-key="my_projects.phonebook_auth_desc">
+          This is a comprehensive React application that masterfully combines
+          contact management with robust user authentication systems. The
+          project represents the culmination of advanced React learning,
+          showcasing cutting-edge development concepts: private routing,
+          intelligent session management, and secure API integration. The
+          application embodies best practices in modern frontend development.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">PhoneBook with Authentication</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/goit-react-hw-08"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://goit-react-hw-08-black-delta.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -613,33 +702,53 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_8_des-8bsuRbba.webp 1x, /PORTFOLIO/assets/project_8_des@2x-DcNohxEL.webp 2x"
+            srcset="/PORTFOLIO/assets/project_7_des-8bsuRbba.webp 1x, /PORTFOLIO/assets/project_7_des@2x-DcNohxEL.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_8_tab-MDHCHD6G.webp 1x, /PORTFOLIO/assets/project_8_tab@2x-C_zRm5BO.webp 2x"
+            srcset="/PORTFOLIO/assets/project_7_tab-MDHCHD6G.webp 1x, /PORTFOLIO/assets/project_7_tab@2x-C_zRm5BO.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_8_mob-DyfBa0MV.webp 1x, /PORTFOLIO/assets/project_8_mob@2x-Cgm-722o.webp 2x"
+            srcset="/PORTFOLIO/assets/project_7_mob-DyfBa0MV.webp 1x, /PORTFOLIO/assets/project_7_mob@2x-Cgm-722o.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_8_mobb-RHFHr9mS.png"
+            src="/PORTFOLIO/assets/project_7_mobb-RHFHr9mS.png"
             alt="React Movies App"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, JAVASCRIPT, REACT, Git, VITE</p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.react_movies">
+          Movie search app
+        </h3>
+        <p class="description" data-lang-key="my_projects.react_movies_desc">
+          This is a modern cinematic app for searching and exploring movies,
+          developed as part of the fifth homework assignment of the React course
+          at GoIT. The app illustrates the practical application of key React
+          concepts: routing via React Router, optimizing loading using code
+          splitting, and effectively working with an external API to access a
+          huge database of movies.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">React Movies App</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/goit-react-hw-05"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://goit-react-hw-05-peach-beta.vercel.app/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -650,33 +759,59 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_9_des-BVKz6OKW.webp 1x, /PORTFOLIO/assets/project_9_des@2x-BFtSbJVX.webp 2x"
+            srcset="/PORTFOLIO/assets/project_6_des-BVKz6OKW.webp 1x, /PORTFOLIO/assets/project_6_des@2x-BFtSbJVX.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_9_tab-BCAajxqF.webp 1x, /PORTFOLIO/assets/project_9_tab@2x-HIfdLyMT.webp 2x"
+            srcset="/PORTFOLIO/assets/project_6_tab-BCAajxqF.webp 1x, /PORTFOLIO/assets/project_6_tab@2x-HIfdLyMT.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_9_mob-C0CMkL3g.webp 1x, /PORTFOLIO/assets/project_9_mob@2x-CJjPazdD.webp 2x"
+            srcset="/PORTFOLIO/assets/project_6_mob-C0CMkL3g.webp 1x, /PORTFOLIO/assets/project_6_mob@2x-CJjPazdD.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_9_mobb-CQz-i0JE.png"
+            src="/PORTFOLIO/assets/project_6_mobb-CQz-i0JE.png"
             alt="Fullstack Developer Portfolio"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, JAVASCRIPT, Git, VITE</p>
+        <h3
+          class="project-subtitle"
+          data-lang-key="my_projects.fullstack_portfolio"
+        >
+          Fullstack Developer Portfolio
+        </h3>
+        <p
+          class="description"
+          data-lang-key="my_projects.fullstack_portfolio_desc"
+        >
+          This is an elegant professional portfolio website for fullstack
+          developer Lloyd Jefferson, expertly crafted by the SurvivorsTeam13
+          team as an educational project. The platform showcases technical
+          skills, extensive experience, and outstanding projects through a
+          modern, visually appealing design that reflects high levels of
+          professionalism and creativity.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Fullstack Developer Portfolio</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/project-SurvivorsTeam13"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://oksana-2024.github.io/project-SurvivorsTeam13/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -687,15 +822,15 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_10_des-DnyX0tcS.webp 1x, /PORTFOLIO/assets/project_10_des@2x-f7dPtPAu.webp 2x"
+            srcset="/PORTFOLIO/assets/project_5_des-DnyX0tcS.webp 1x, /PORTFOLIO/assets/project_5_des@2x-f7dPtPAu.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_10_tab-B0zs0Y3f.webp 1x, /PORTFOLIO/assets/project_10_tab@2x-nrACROMq.webp 2x"
+            srcset="/PORTFOLIO/assets/project_5_tab-B0zs0Y3f.webp 1x, /PORTFOLIO/assets/project_5_tab@2x-nrACROMq.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_10_mob-ExFY8ydp.webp 1x, /PORTFOLIO/assets/project_10_mob@2x-CZGEMdVE.webp 2x"
+            srcset="/PORTFOLIO/assets/project_5_mob-ExFY8ydp.webp 1x, /PORTFOLIO/assets/project_5_mob@2x-CZGEMdVE.webp 2x"
           />
           <img
             loading="lazy"
@@ -706,14 +841,32 @@
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, JAVASCRIPT, Git, VITE</p>
+        <h3 class="project-subtitle" data-lang-key="my_projects.image_search">
+          Image Search Application
+        </h3>
+        <p class="description" data-lang-key="my_projects.image_search_desc">
+          This is an interactive web image search application developed as part
+          of Homework #12 for the JavaScript course at GoIT. The application
+          allows users to efficiently search for images by keywords and easily
+          download additional results using the «load More» feature.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">Image Search Application</h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/goit-js-hw-12"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://ira-panasiuk-2024.github.io/goit-js-hw-12/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -724,35 +877,59 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_11_des-B9oM_0hE.webp 1x, /PORTFOLIO/assets/project_11_des@2x-9NcHY_in.webp 2x"
+            srcset="/PORTFOLIO/assets/project_4_des-B9oM_0hE.webp 1x, /PORTFOLIO/assets/project_4_des@2x-9NcHY_in.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_11_tab-C2VbNoXW.webp 1x, /PORTFOLIO/assets/project_11_tab@2x-DTKeQNkd.webp 2x"
+            srcset="/PORTFOLIO/assets/project_4_tab-C2VbNoXW.webp 1x, /PORTFOLIO/assets/project_4_tab@2x-DTKeQNkd.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_11_mob-DMwvFOeK.webp 1x, /PORTFOLIO/assets/project_11_mob@2x-D_dRj3fM.webp 2x"
+            srcset="/PORTFOLIO/assets/project_4_mob-DMwvFOeK.webp 1x, /PORTFOLIO/assets/project_4_mob@2x-D_dRj3fM.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_11_mobb-BySFGGUK.png"
+            src="/PORTFOLIO/assets/project_4_mobb-BySFGGUK.png"
             alt="Simply Chocolate - Premium Chocolate Website"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, Git, VITE</p>
+        <h3
+          class="project-subtitle"
+          data-lang-key="my_projects.simply_chocolate"
+        >
+          Simply Chocolate - Premium Chocolate Website
+        </h3>
+        <p
+          class="description"
+          data-lang-key="my_projects.simply_chocolate_desc"
+        >
+          This is an exquisite premium chocolate company website that elegantly
+          showcases artisanal chocolate delicacies, unique manufacturing
+          processes, and unforgettable customer experiences. This fully
+          responsive site embodies cutting-edge web development techniques with
+          emphasis on flawless user experience and captivating visual aesthetics
+          that reflect the luxurious nature of the brand.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">
-            Simply Chocolate - Premium Chocolate Website
-          </h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/Simply-Chocolate"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://ira-panasiuk-2024.github.io/Simply-Chocolate/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -763,35 +940,59 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_12_des-Clp0ZJrE.webp 1x, /PORTFOLIO/assets/project_12_des@2x-u_SLlBUN.webp 2x"
+            srcset="/PORTFOLIO/assets/project_3_des-Clp0ZJrE.webp 1x, /PORTFOLIO/assets/project_3_des@2x-u_SLlBUN.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_12_tab-DH3JmNDy.webp 1x, /PORTFOLIO/assets/project_12_tab@2x-B7txr10-.webp 2x"
+            srcset="/PORTFOLIO/assets/project_3_tab-DH3JmNDy.webp 1x, /PORTFOLIO/assets/project_3_tab@2x-B7txr10-.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_12_mob-CM95BPfW.webp 1x, /PORTFOLIO/assets/project_12_mob@2x-BOb1GLdb.webp 2x"
+            srcset="/PORTFOLIO/assets/project_3_mob-CM95BPfW.webp 1x, /PORTFOLIO/assets/project_3_mob@2x-BOb1GLdb.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_12_mobb-RrB_kiKB.png"
+            src="/PORTFOLIO/assets/project_3_mobb-RrB_kiKB.png"
             alt="Mobileapp - Mobile Application Prototype"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, Git, VITE</p>
+        <h3
+          class="project-subtitle"
+          data-lang-key="my_projects.mobileapp_prototype"
+        >
+          Mobileapp - Mobile Application Prototype
+        </h3>
+        <p
+          class="description"
+          data-lang-key="my_projects.mobileapp_prototype_desc"
+        >
+          This is a sophisticated mobile application prototype that embodies
+          best practices in contemporary mobile development and user experience
+          design. The project represents a meticulously crafted landing page
+          featuring interactive app capability demonstrations, talented team
+          presentation, and genuine user reviews, forming a cohesive vision of
+          an innovative mobile product.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">
-            Mobileapp - Mobile Application Prototype
-          </h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/Mobile-App-Prototype"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://ira-panasiuk-2024.github.io/Mobile-App-Prototype/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -802,35 +1003,54 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_13_des-B5V3pEDr.webp 1x, /PORTFOLIO/assets/project_13_des@2x-DOQeepN-.webp 2x"
+            srcset="/PORTFOLIO/assets/project_2_des-B5V3pEDr.webp 1x, /PORTFOLIO/assets/project_2_des@2x-DOQeepN-.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_13_tab-CqshXQB2.webp 1x, /PORTFOLIO/assets/project_13_tab@2x-BBukoEzw.webp 2x"
+            srcset="/PORTFOLIO/assets/project_2_tab-CqshXQB2.webp 1x, /PORTFOLIO/assets/project_2_tab@2x-BBukoEzw.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_13_mob-Byu0_nnh.webp 1x, /PORTFOLIO/assets/project_13_mob@2x-DdUe2ZQ5.webp 2x"
+            srcset="/PORTFOLIO/assets/project_2_mob-Byu0_nnh.webp 1x, /PORTFOLIO/assets/project_2_mob@2x-DdUe2ZQ5.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_13_mobb-DMxHL8yP.png"
+            src="/PORTFOLIO/assets/project_2_mobb-DMxHL8yP.png"
             alt="YachtJet - Luxury Yacht Rental Website"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, Git, VITE</p>
+
+        <h3 class="project-subtitle" data-lang-key="my_projects.yachtjet">
+          YachtJet - Luxury Yacht Rental Website
+        </h3>
+        <p class="description" data-lang-key="my_projects.yachtjet_desc">
+          This is an elite premium platform for luxury yacht rentals, offering
+          an exclusive collection of high-end vessels for sophisticated maritime
+          adventures and unforgettable getaways. The project features a refined
+          booking system with detailed yacht specifications, professional photo
+          galleries, and authentic testimonials from discerning clients,
+          creating a flawless luxury experience.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">
-            YachtJet - Luxury Yacht Rental Website
-          </h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/project-dream-team-16"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://ira-panasiuk-2024.github.io/project-dream-team-16/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
@@ -841,35 +1061,54 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="/PORTFOLIO/assets/project_14_des-D-ezT6i0.webp 1x, /PORTFOLIO/assets/project_14_des@2x-DGPSbpLl.webp 2x"
+            srcset="/PORTFOLIO/assets/project_1_des-D-ezT6i0.webp 1x, /PORTFOLIO/assets/project_1_des@2x-DGPSbpLl.webp 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/PORTFOLIO/assets/project_14_tab-3TtRmEvS.webp 1x, /PORTFOLIO/assets/project_14_tab@2x-BOVCTf7Z.webp 2x"
+            srcset="/PORTFOLIO/assets/project_1_tab-3TtRmEvS.webp 1x, /PORTFOLIO/assets/project_1_tab@2x-BOVCTf7Z.webp 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/PORTFOLIO/assets/project_14_mob-BIi7M-1W.webp 1x, /PORTFOLIO/assets/project_14_mob@2x-24kh6GE0.webp 2x"
+            srcset="/PORTFOLIO/assets/project_1_mob-BIi7M-1W.webp 1x, /PORTFOLIO/assets/project_1_mob@2x-24kh6GE0.webp 2x"
           />
           <img
             loading="lazy"
-            src="/PORTFOLIO/assets/project_14_mobb-D2p_iJIx.png"
+            src="/PORTFOLIO/assets/project_1_mobb-D2p_iJIx.png"
             alt="WebStudio - Business Portfolio Website"
             width="300"
             class="project-img"
           />
         </picture>
         <p class="small-desc">HTML5, CSS3, Git, VITE</p>
+
+        <h3 class="project-subtitle" data-lang-key="my_projects.webstudio">
+          WebStudio - Business Portfolio Website
+        </h3>
+        <p class="description" data-lang-key="my_projects.webstudio_desc">
+          This is a modern, fully responsive business portfolio website that
+          showcases innovative and effective solutions for the corporate sector.
+          The project embodies high-level web development expertise with
+          emphasis on minimalist design, seamless user experience, and
+          cutting-edge web technologies, creating a compelling digital presence
+          for business audiences.
+        </p>
         <div class="box-button">
-          <h3 class="project-subtitle">
-            WebStudio - Business Portfolio Website
-          </h3>
           <a
             class="projects-button"
             href="https://github.com/Ira-Panasiuk-2024/goit-markup-hw-06"
             target="_blank"
           >
-            <span data-lang-key="my_projects.visit_button">VISIT</span>
+            <span data-lang-key="my_projects.visit_GitHub">GitHub</span>
+            <svg class="icon-project" width="24" height="24">
+              <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+          <a
+            class="projects-button"
+            href="https://ira-panasiuk-2024.github.io/goit-markup-hw-06/"
+            target="_blank"
+          >
+            <span data-lang-key="my_projects.visit_Demo">Demo</span>
             <svg class="icon-project" width="24" height="24">
               <use href="/PORTFOLIO/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
             </svg>
