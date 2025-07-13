@@ -19,7 +19,6 @@
   right: 0;
   bottom: 0;
   background-color: var(--switch-background);
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -29,17 +28,13 @@
   height: 20px;
   width: 20px;
   left: 0px;
-  bottom: 4px;
   top: 0;
   bottom: 0;
   margin: auto 0;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
   box-shadow: 0 0px 15px var(--switch-background);
   background-color: var(--switch-color);
-  -webkit-mask: url('/img/circle.svg') no-repeat center;
   mask: url('/img/circle.svg') no-repeat center;
-  -webkit-mask-size: contain;
   mask-size: contain;
 }
 
@@ -52,13 +47,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(31px);
-  -ms-transform: translateX(31px);
   transform: translateX(31px);
   background-color: var(--switch-color);
-  -webkit-mask: url('/img/moon.svg') no-repeat center;
   mask: url('/img/moon.svg') no-repeat center;
-  -webkit-mask-size: contain;
   mask-size: contain;
 }
 

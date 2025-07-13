@@ -48,7 +48,7 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"%3E%3Cpath fill="%236c6c6c" d="M9.293 12.95l-3.293-3.293a1 1 0 011.414-1.414L10 10.586l2.586-2.586a1 1 0 011.414 1.414l-3.293 3.293a1 1 0 01-1.414 0z"/%3E%3C/svg%3E');
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20fill%3D%22%236c6c6c%22%20d%3D%22M9.293%2012.95l-3.293-3.293a1%201%200%20011.414-1.414L10%2010.586l2.586-2.586a1%201%200%20011.414%201.414l-3.293%203.293a1%201%200%2001-1.414%200z%22/%3E%3C/svg%3E');
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 16px;
